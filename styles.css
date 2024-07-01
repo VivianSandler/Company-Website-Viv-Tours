@@ -170,7 +170,7 @@ footer {
 }
 
 #visit .locations-container {
-  background-color: #f0fcfb;
+  background-color: #f2fcf8;
   margin: 2rem 4rem;
   padding: 2rem;
   text-align: center;
@@ -225,7 +225,7 @@ footer {
 }
 
 #about .employee-box {
-  background-color: #fff7e3;
+  background-color: #f8f5ed;
   padding: 0.5rem;
   border-radius: 4px;
 }
@@ -321,6 +321,10 @@ footer {
   #page-hero .cta-part-2 {
     font-size: 4rem;
   }
+
+  #visit .locations-container {
+    background-color: transparent;
+  }
 }
 
 @media only screen and (max-width: 435px) {
@@ -337,10 +341,6 @@ footer {
 
   #visit .visit-about {
     font-size: 1.25rem;
-  }
-
-  #visit .locations-container {
-    background-color: #fff;
   }
 
   #contact .contact-us {
